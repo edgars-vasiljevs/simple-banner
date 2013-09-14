@@ -1,0 +1,26 @@
+{
+    "name": "simple/banner",
+    "description": "Banner module for SimpleCMS",
+    "authors": [
+        {
+            "name": "Edgars Vasiljevs",
+            "email": "edgars@htmlslice.lv"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+	    "intervention/image": "dev-master"
+    },
+    "autoload": {
+	    "classmap": [
+		    "src/controllers",
+		    "src/validators",
+		    "src/models"
+	    ],
+        "psr-0": {
+            "Simple\\Banner": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
